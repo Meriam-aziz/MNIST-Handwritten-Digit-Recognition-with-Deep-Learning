@@ -1,13 +1,11 @@
 # ✍️ Handwritten Digit Recognition System using Deep Learning
 
 ## 📌 Overview
-
 This project presents a Deep Learning model that recognizes handwritten digits (0–9) using the MNIST dataset. The model classifies grayscale images of handwritten digits and predicts the corresponding digit with high accuracy.
 
 ---
 
 ## 🎯 Objective
-
 The main objective of this project is to build an accurate image classification model capable of recognizing handwritten digits from the MNIST dataset using Deep Learning techniques.
 
 ---
@@ -16,19 +14,19 @@ The main objective of this project is to build an accurate image classification 
 
 The project uses the **MNIST** dataset, which contains:
 
-* **70,000** handwritten digit images
-* **28 × 28** grayscale images
-* **10 classes** representing digits **0–9**
-* Training set: **60,000** images
-* Test set: **10,000** images
+- 70,000 handwritten digit images
+- 28×28 grayscale images
+- 10 classes representing digits (0–9)
+- 60,000 training images
+- 10,000 testing images
 
 ---
 
 ## ⚙️ Workflow
 
 1. Load the MNIST dataset
-2. Data preprocessing (normalization and reshaping)
-3. Build the Deep Learning model
+2. Data preprocessing (Normalization & Reshaping)
+3. Build the CNN model
 4. Train the model
 5. Evaluate the model
 6. Predict handwritten digits
@@ -37,15 +35,15 @@ The project uses the **MNIST** dataset, which contains:
 
 ## 🤖 Model Used
 
-* Convolutional Neural Network (CNN)
+- Convolutional Neural Network (CNN)
 
 ---
 
 ## 📈 Evaluation Metrics
 
-* Accuracy
-* Loss
-* Confusion Matrix
+- Accuracy
+- Loss
+- Confusion Matrix
 
 ---
 
@@ -53,7 +51,7 @@ The project uses the **MNIST** dataset, which contains:
 
 ### Final Prediction Result
 
-![Final Result](images/final_result.png)
+![Final Result](final_result.png)
 
 The trained CNN model successfully recognizes handwritten digits from the MNIST dataset with high accuracy.
 
@@ -61,27 +59,27 @@ The trained CNN model successfully recognizes handwritten digits from the MNIST 
 
 ## 🚀 Key Insights
 
-* CNN significantly outperforms traditional Machine Learning algorithms for image classification tasks.
-* Image normalization improves model performance and training stability.
-* The trained model achieves excellent accuracy on unseen handwritten digit images.
+- CNN models provide excellent performance for handwritten digit recognition.
+- Data normalization improves model convergence and stability.
+- The trained model accurately classifies unseen handwritten digits.
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python
-* NumPy
-* Matplotlib
-* TensorFlow
-* Keras
-* Jupyter Notebook
+- Python
+- NumPy
+- Matplotlib
+- TensorFlow
+- Keras
+- Jupyter Notebook
 
 ---
 
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/your-username/MNIST-Handwritten-Digit-Recognition-with-Deep-Learning.git
+git clone https://github.com/Meriam-aziz/MNIST-Handwritten-Digit-Recognition-with-Deep-Learning.git
 
 cd MNIST-Handwritten-Digit-Recognition-with-Deep-Learning
 
@@ -97,9 +95,8 @@ jupyter notebook AI.ipynb
 ```text
 MNIST-Handwritten-Digit-Recognition-with-Deep-Learning/
 │
-├── images/
-│   └── final_result.png
 ├── AI.ipynb
+├── final_result.png
 ├── README.md
 └── requirements.txt
 ```
@@ -114,8 +111,8 @@ MNIST-Handwritten-Digit-Recognition-with-Deep-Learning/
 
 ## ⭐ Future Improvements
 
-* Develop a real-time handwritten digit recognition web application using Streamlit.
-* Deploy the trained model for online inference.
-* Improve the CNN architecture for even higher accuracy.
-* Extend the project to recognize handwritten letters and characters.
+- Deploy the model using Streamlit or Flask.
+- Add a real-time handwritten digit drawing interface.
+- Improve the CNN architecture for higher accuracy.
+- Extend the project to recognize handwritten letters and characters.
 
